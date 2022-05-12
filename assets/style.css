@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    box-sizing:  inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(./background_img.jpg);
+}
+
+.container {
+    margin: 1.5rem;
+}
+
+h1{
+    font-size: 3rem ;
+    color: #f2f2f2;
+    margin-top: 3rem;
+    padding: .5rem;
+
+    margin-bottom: 2rem;
+    display: inline-block;
+    background-color:#D2691E;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.box{
+    width: 70%;
+    background-color: #FFE4C4
+
+}
+.box p {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(35, 96, 164);
+    padding: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+
+.two-boxes {
+    display: flex;
+    margin-top: 2rem;
+}
+.green {
+    background-color:  rgb(32, 186, 32);
+    width: 200px;
+    height: 150px;
+    margin-right: 2rem;
+    font-size: 3rem;
+    padding: .5rem;
+    
+}
+
+.blue {
+    background-color: rgb(28, 158, 145);
+    width: 100px;
+    
+}
+
+.blue p {
+    margin-top: 1.5rem;
+    padding: .9rem;
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+.crystals {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.crystals div img {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(234, 228, 228);
+    margin: .5rem;
+    border: 1px solid gray
+}
+
+.total-score {
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    background-color: #008B8B;
+    display: inline-block;
+    margin-top: 1.5rem;
+    width: 20rem;
+
+    padding: .5rem;
+}
+.score-panel {
+    background-color: #008B8B;
+    color: #f2f2f2;
+    margin-top: 2rem;
+    height: 10rem;
+    font-size: 2rem;
+    width: 20rem;
+
+}
