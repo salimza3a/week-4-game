@@ -1,7 +1,12 @@
 $(document).ready( function() {
-    let getRandomNumber = Math.floor(Math.random() * 120)
+    let getRandomNumber;
 
-    $("#green-number").html(getRandomNumber)
+    function randomNum () {
+        getRandomNumber = Math.floor(Math.random() * 120)
+        $("#green-number").html(getRandomNumber)
+    }
+    randomNum()
+    
 
   
     let counter = 0;
@@ -28,6 +33,7 @@ $(document).ready( function() {
             $("#wins").html(wins)
             counter = 0;
             $("#score").html(counter)
+            randomNum()
 
         } else if(counter > getRandomNumber) {
             $("#text").html("You lost!!")
@@ -35,6 +41,7 @@ $(document).ready( function() {
             $("#losses").html(losses)
             counter = 0;
             $("#score").html(counter)
+            randomNum()
         }
     })
 })
