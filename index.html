@@ -24,22 +24,25 @@
         </div>
         <div class="two-boxes">
             <div class="green">
-                114
+                <span id="green-number"></span>
             </div>
             <div class="blue">
-                <p>Wins: <span>0</span></p>
-                <p>Losses: <span>0</span></p>
+                <p id="text"></p>
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
             </div>
         </div>
         <div class="crystals">
-            <div><img src="./assets/red.png" /></div>
-            <div><img src="./assets/blue.png" /></div>
-            <div><img src="./assets/yellow.png" /></div>
-            <div><img src="./assets/green.png" /></div>
+            <div><img class="crystal-image" data-value="7" src="./assets/red.png" /></div>
+            <div><img class="crystal-image" data-value="13" src="./assets/blue.png" /></div>
+            <div><img class="crystal-image" data-value="4" src="./assets/yellow.png" /></div>
+            <div><img class="crystal-image" data-value="9" src="./assets/green.png" /></div>
         </div>
         <div class="total-score">Your total score is: <span></span></div>
-        <div class="score-panel">10</div>
+        <div class="score-panel"><span style="font-size: 30px;" id="score"></span></div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/game.js"></script>
 </body>
 
 </html>
